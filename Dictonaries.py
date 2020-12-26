@@ -6,7 +6,7 @@ zipped_drinks = zip(drinks, caffeine)
 
 drinks_to_caffeine  = {key:value for key, value in zipped_drinks}
 """Create a dictionary called drinks_to_caffeine by using a list comprehension that goes through the zipped_drinks list and turns each pair into a key:value item."""
-print(zipped_drinks)
+print(drinks_to_caffeine)
 
 # new exercise
 print("====================================New exercise==============================")
